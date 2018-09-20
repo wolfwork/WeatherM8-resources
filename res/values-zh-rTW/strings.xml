@@ -11,6 +11,7 @@
     <string name="act_set_city_find_side_error">"無法定位"</string>
     <string name="button_add_city">添加</string>
     <string name="locate_fail_detail_err">"無法定位，點擊螢幕重新定位或手動添加城市"</string>
+	
     <string name="act_set_city_swipe_hint">向左滑動刪除城市</string>
     <string name="button_allow">確定</string>
     <string name="button_not_allow">取消</string>
@@ -20,6 +21,7 @@
     <string name="location_tag">位置</string>
     <string name="act_weather_find_city_no_result">沒有結果</string>
     <string name="act_weather_find_city_added">已添加</string>
+    <string name="city_exceeded_warning">最多只能添加10個城市</string>
     <string name="view_forecast_item_yesterday">昨天</string>
     <string name="view_indexes_item_today">今天</string>
     <string name="view_indexes_item_tommorrow">明天</string>
@@ -48,6 +50,7 @@
     <string name="share_menu_title">分享</string>
 
     <string name="common_auto">自動</string>
+    <string name="common_default">預設</string> 
     <string name="common_recommended">建議</string>
 
     <string name="network_error">無法連接伺服器\n請檢查您的網路設定</string>
@@ -57,8 +60,18 @@
 
     <!-- Preferences -->
     <string name="settings_menu_title">設定</string>
+    <string name="settings_geolocation_title">位置</string>
+    <string name="settings_autolocate_title">自動定位</string>
+    <string name="settings_autolocate_summary">自動尋找設備之位置</string>
+    <string name="settings_geolocation_names_source_title">位置名稱來源</string> 
+    <string name="geolocation_names_source_default">預設</string> 
+    <string name="geolocation_names_source_google">Google</string> 
+    <string name="settings_autolocate_detailed_title">顯示詳細位置資訊</string>
+    <string name="settings_autolocate_detailed_summary">顯示有關您目前位置的詳細資訊，例如：街道、地區、國家或地區</string>
     <string name="settings_autoupdate_weather_title">自動更新</string>
-    <string name="settings_autoupdate_weather_summary">自動更新天氣預報</string>
+    <string name="settings_autoupdate_weather_summary">自動更新天氣資訊</string>
+    <string name="settings_update_on_app_start_title">啟動時自動更新</string> 
+    <string name="settings_update_on_app_start_summary">啟動應用程式時自動更新天氣資訊</string>
     <string name="settings_update_wifi_only_summary">僅在有Wi-Fi連線時自動更新天氣預報</string>
     <string name="settings_update_wifi_only_title">Wi-Fi連線時自動更新</string>
     <string name="settings_update_interval_title">自動更新頻率</string>
@@ -123,19 +136,22 @@
     <string name="settings_notification_priority_summary">最低優先級通知，只顯示在其他通知之下</string>
 
     <string name="settings_notify_type_title">顯示圖標</string>
+    <string name="settings_notification_background_color_title">通知欄背景顏色</string> 
     <string name="settings_notification_statusbar_color_title">圖標顏色</string> 
+    <string name="settings_notification_text_color_title">通知欄文字顏色</string> 
 	
-    <string name="settings_alerts_title">預警管理</string>
+    <string name="settings_alerts_title">天氣預警管理</string>
 
     <string name="settings_icons_title">天氣圖標</string>
     <string name="settings_icons_builtin_title">內置天氣圖標</string>
+	<string name="settings_icons_temperature_title">溫度圖標</string> 
     <string name="settings_icons_theme_details_title">主題細節</string>
 
     <string name="settings_widgets_title">小工具</string>
     <string name="settings_widgets_not_found">未放置小工具</string>
 
     <string name="settings_ads_title">去除廣告與捐款</string>
-    <string name="settings_ads_donations_title">請我喝啤酒</string>
+    <string name="settings_ads_donations_title">請我喝咖啡</string>
     <string name="settings_ads_explanation">"為什麼你會看到廣告？
 在空閒時間寫Android程式是我的嗜好。所以請理解一定的廣告數量能使此應用發展得更好。"</string>
     <string name="settings_ads_menu_hide_title">隱藏此菜單</string>
@@ -225,7 +241,7 @@
     <string name="widget_dateformat_default_value">yyyy年MMMMd日</string>
 
     <!-- Weather alerts -->
-    <string name="activity_main_alert">預警通知：%1$d</string>
+    <string name="activity_main_alert">預警通知：%1$d |更多資訊...</string>
     <string name="activity_main_alert_precip">%1$s預警。預計當日降雨量為%2$s。</string>
     <string name="activity_main_alert_wind">風速預警。預計最高風速達%1$s。</string>
     <string name="activity_main_alert_wind_gusts">預計最大陣風可達%1$s。</string>
@@ -278,6 +294,7 @@
     <string name="widget_config_text_color_title">文字顏色</string>
     <string name="widget_config_show_alarm_title">顯示鬧鐘</string>
     <string name="widget_config_show_date_title">顯示日期</string>
+    <string name="widget_config_show_update_date_title">顯示更新資訊</string> 
     <string name="widget_config_use_background_title">顯示小工具背景</string>
     <string name="widget_config_background_color_title">背景顏色</string>
     <string name="widget_config_background_type_title">背景類型</string>
@@ -289,6 +306,7 @@
     <string name="widget_config_show_cityname_title">顯示城市名稱</string>
     <string name="widget_config_show_local_time_title">將時鐘顯示變更為當地時間</string>
     <string name="widget_config_show_leading_zero_title">顯示時鐘起首零位</string>
+    <string name="widget_config_show_ampm_title">顯示上午/下午 (12小時制)</string> 
 
     <string name="widget_config_click_settings">小工具點擊功能</string>
     <string name="widget_config_click_apps">選擇應用程式</string>
@@ -296,7 +314,12 @@
     <string name="widget_config_click_date">日期</string>
     <string name="widget_config_click_weather_icon">天氣圖標</string>
     <string name="widget_config_click_temperature">溫度</string>
+	
+    <string name="widget_config_backup_done">小工具備份完成！</string> 
+    <string name="widget_config_restore_done">小工具還原完成！</string> 
+    <string name="widget_config_no_backups_found">找不到小工具備份</string>
 
+	
     <!-- Moon Phases -->
     <string name="menu_moon_phases">月相</string>
     <string name="moon_age">月齡：%1$s天%2$s小時%3$s分鐘</string>
@@ -332,6 +355,7 @@
     <!-- Color picker -->
     <string name="press_color_to_apply">點擊顏色以套用</string>
     <string name="dialog_color_picker">檢色器</string>
+    <string name="color_picker_use_default_color">使用預設顏色</string> 
 
     <string name="date_time_am">上午</string>
     <string name="date_time_pm">下午</string>
@@ -369,7 +393,7 @@
     <!-- Radar -->
     <string name="radar_title">雷達回波圖</string>
     <string name="radar_tab_cloud">雲圖</string>
-    <string name="radar_tab_rain">雨量圖</string>
+    <string name="radar_tab_rain">降水</string>
     <string name="radar_date_format">MM/dd HH:mm</string>
 	
     <string name="loading_data">資料載入中…</string>

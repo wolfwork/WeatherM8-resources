@@ -13,8 +13,8 @@ Weather Mate (Weather M8) by **Andrei Zhukouski** translation files.
 |values-bn|Bengali|**Abhishek**|
 |values-ca-ES|Catalan|**Jaime Muñoz Martín**|
 |values-cs|Czech|**Miloslav Kubín**,  **Ladislav Loun**|
-|values-de|Deutch|**MIUI Germany**, **Hen_Ry**|
-|values-el|Greek|**Dimitrios Skodras**|
+|values-de|Deutch|**MIUI Germany**, **hEnRy gLäSeR**|
+|values-el|Greek|**Dimitrios Skodras**, **Spyros Kaparos**|
 |values-es|Spanish|**Nicolás Berrutti**, **Jaime Muñoz Martín** |
 |values-fa|Persian|**رحمان رحمانی پرست**|
 |values-fi|Finnish|**Kalle Lahtinen**|
@@ -23,7 +23,7 @@ Weather Mate (Weather M8) by **Andrei Zhukouski** translation files.
 |values-hr|Croatian|**MASVA, MIUI Adria**|
 |values-hu|Hungarian|**Gergő Bancsi**|
 |values-in|Indonesian|**Anggit Pramudita**, **Diki Ananta** |
-|values-it|Italian|**Ignis_su**|
+|values-it|Italian|**Ignis_su**, **Lippe35** |
 |values-iw|Hebrew|**Alex Travitsky**|
 |values-ko|Korean|**wolfwork**|
 |values-lt|Lithuanian|**Vladimir Zemlianskij**|
@@ -46,4 +46,4 @@ Weather Mate (Weather M8) by **Andrei Zhukouski** translation files.
 **Weather M8** can be downloaded on [Google Play Store](https://play.google.com/store/apps/details?id=pro.burgerz.miweather8)
 
 ## Copyright
-Weather Mate (Weather M8) © 2016-2017 zaa.bz, **Andrei Zhukouski**
+Weather Mate (Weather M8) © 2016-2018 zaa.bz, **Andrei Zhukouski**
